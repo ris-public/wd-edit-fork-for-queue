@@ -1,5 +1,6 @@
 # wd-edit-fork-for-queue
-Fork of wikidata-edit for synchronous callbacks.
+Fork of wikidata-edit for synchronous callbacks. This calls Proceed() with timeout of 1s, when the edit is successful. Useful for rate limiting.
+
 =======
 # Wikidata Edit
 Edit [Wikidata](https://wikidata.org) from [NodeJS](https://nodejs.org)
